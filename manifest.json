@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "saigkill.missed-shortcuts",
+  "name": "Missed shortcuts",
+  "version": "0.1.0",
+  "author": "Sascha Manns",
+  "license": "MIT",
+  "description": "Shows the keyboard shortcut when you open an app from the launcher, switch workspaces with the mouse or toggle floating without one. Needs a one-line hook in hyprland.lua.",
+  "kinds": [
+    "service"
+  ],
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
